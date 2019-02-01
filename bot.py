@@ -12,6 +12,8 @@ b = a + datetime.timedelta(days=1)
 
 if ("will be closed tomorrow, "+a.strftime('%A')+", "+a.strftime('%B')+" "+str(a.day)+".") in sl:
     out = out +("No school today!")
+elif("will now be closed today, "+a.strftime('%A')+", "+a.strftime('%B')+" "+str(a.day)+".") in sl:
+    out = out +("Update: No school today!")
 elif ("will open two hours late tomorrow, "+a.strftime('%A')+", "+a.strftime('%B')+" "+str(a.day)+".") in sl:
     out = out +("Two hour delay today!")
 else:
