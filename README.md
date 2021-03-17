@@ -1,5 +1,5 @@
-# twitter messenger bot
-Pulls FCPS status from twitter and messages through messenger
+# Twitter messenger bot
+Pulls FCPS status from twitter and sends messages about FCPS operational status through Facebook messenger
 
 Installations:
 - pip install selenium
